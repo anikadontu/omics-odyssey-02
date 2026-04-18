@@ -21,7 +21,7 @@ USER jovyan
 RUN conda install -y scikit-learn
 
 # RUN pip install --no-cache-dir networkx scipy
-RUN pip install --no-cache-dir networkx scipy pandas seaborn scikit-learn xgboost shap matplotlib
+RUN pip install --no-cache-dir networkx scipy pandas seaborn xgboost shap matplotlib kagglehub
 
 USER root
 RUN mamba install -c conda-forge r-survey -y && \
