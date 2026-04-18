@@ -1,4 +1,3 @@
-# omics team 02
 # 1) choose base container
 # generally use the most recent tag
 
